@@ -1,0 +1,27 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    width: 95%;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 565px) {
+    .ui.list .item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ui.list .right.floated.content {
+        order: 1;
+        margin: 5px 0 0;
+    }
+  }
